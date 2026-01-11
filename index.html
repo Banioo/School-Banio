@@ -170,8 +170,11 @@
   -webkit-overflow-scrolling: touch;
 }
 
-table {
-  min-width: 650px;
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    min-width: unset;
+  }
 }
 </style>
 </head>
@@ -276,7 +279,7 @@ table {
 
     <!-- OBALEC TABULKY (DŮLEŽITÉ PRO MOBIL) -->
     <div class="table-wrap">
-      <table style="width:100%; border-collapse:collapse; text-align:left;">
+      <table style="width:100%; border-collapse:collapse; text-align:left; margin-bottom:15px;">
         <thead>
           <tr style="background:#e2e8f0;">
             <th style="padding:10px; border:1px solid #cbd5e1;">Akce</th>
