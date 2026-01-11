@@ -75,6 +75,10 @@
       font-weight: bold;
     }
 
+nav a:hover {
+  color: #ffe08a;
+}
+
     .container {
       max-width: 1000px;
       margin: 20px auto;
@@ -190,14 +194,6 @@
     Studentská firma NEXT6
   </p>
 
-  <div class="header-right">
-    <a href="https://www.instagram.com/" target="_blank">
-      <img src="instagram.png" alt="Instagram">
-    </a>
-    <a href="https://www.facebook.com/" target="_blank">
-      <img src="facebook.png" alt="Facebook">
-    </a>
-  </div>
 </header>
 
   <nav>
@@ -206,6 +202,7 @@
     <a href="#program">Akce</a>
     <a href="#cenik">Ceník</a>
     <a href="#kontakt">Přihláška</a>
+    <a href="fotogalerie.html">Fotogalerie</a>
   </nav>
 
   <div class="container">
@@ -398,8 +395,18 @@
   </div>
 
   <footer>
-    <p>© 2026 NEXT6</p>
-  </footer>
+  <div style="display:flex; justify-content:center; align-items:center; gap:12px; flex-wrap:wrap;">
+    <p style="margin:0;">© 2026 NEXT6</p>
+
+    <a href="https://www.instagram.com/" target="_blank">
+      <img src="instagram.png" alt="Instagram" style="width:20px; height:20px;">
+    </a>
+
+    <a href="https://www.facebook.com/" target="_blank">
+      <img src="facebook.png" alt="Facebook" style="width:20px; height:20px;">
+    </a>
+  </div>
+</footer>
 
 <script>
   function prihlasit() {
